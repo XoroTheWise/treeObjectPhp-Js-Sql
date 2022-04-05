@@ -1,0 +1,171 @@
+*{
+  font-family: sans-serif;
+}
+.container{
+  position: absolute;
+  width: 60%;
+  min-height: 600px;
+  border:2px solid black;
+  left: 20%;
+  top: 5%;
+  background: #fbfbfb;
+}
+
+.left-block{
+  position: relative;
+  float: left;
+  border-right: 1px solid black;
+  width: 40%;
+  min-height: 610px;
+}
+.title-block{
+  font-size: 22px;
+  color: #007ab5;
+  margin-left: 15%;
+}
+.object{
+  cursor: pointer;
+}
+.object:hover{
+  text-decoration: underline;
+}
+.ul-group{
+  margin-right: 2%;
+  font-size: 17px;
+  margin-left: -5%;
+}
+.parent{
+  color: #000000;
+}
+.children{
+  color: #0052ff;
+}
+.active-object{
+  color:red;
+}
+
+
+.right-block{
+  float: right;
+  border-left: 1px solid black;
+  width:30%;
+  min-height: 600px;
+  padding: 5px;
+}
+.p-text{
+  position: relative;
+}
+.p-input{
+  position: relative;
+  margin-top: 10%;
+  padding-top: 10px;
+}
+.p-input label{
+  position: relative;
+  margin-left: 5%;
+}
+.p-input input{
+  float: right;
+  margin-right: 5%;
+  width: 55%;
+  padding: 10px;
+  border: none;
+  background: #e6eeff;
+}
+.p-input textarea{
+  position: relative;
+  float: right;
+  margin-top: 5%;
+  margin-right: 7%;
+  width: 80%;
+  height: 150px;
+  padding: 10px;
+  border: none;
+  background: #e6eeff;
+  resize: none;
+}
+.addObject-button{
+  display: none;
+  width: 40%;
+  height: 10%;
+  padding: 15px;
+  font-size: 15px;
+  border: 0;
+  background: #bef0ff;
+  transition: 0.1s;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.addObject-button:hover{
+  background: #a0e9ff;
+}
+.addObject-button:active{
+  background: #58d8ff;
+}
+.delObject-button{
+  display: none;
+  width: 40%;
+  height: 10%;
+  padding: 15px;
+  font-size: 15px;
+  border: 0;
+  background: #bef0ff;
+  transition: 0.1s;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.delObject-button:hover{
+  background: #a0e9ff;
+}
+.delObject-button:active{
+  background: #58d8ff;
+}
+.edtObject-button{
+  display: none;
+  width: 40%;
+  height: 10%;
+  padding: 15px;
+  font-size: 15px;
+  border: 0;
+  background: #bef0ff;
+  transition: 0.1s;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.edtObject-button:hover{
+  background: #a0e9ff;
+}
+.edtObject-button:active{
+  background: #58d8ff;
+}
+.message-right-block{
+  display: none;
+  position: relative;
+  margin-left: 3%;
+  margin-top: 10%;
+  font-size: 15px;
+}
+
+
+.center-block{
+  float: left;
+  width: 22%;
+  min-height: 610px;
+}
+.center-block button{
+  width: 60%;
+  height: 10%;
+  margin-left: 25%;
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 20%;
+  border: 0;
+  background: #bef0ff;
+  transition: 0.1s;
+}
+.center-block button:hover{
+  background: #a0e9ff;
+}
+.center-block button:active{
+  background: #58d8ff;
+}
